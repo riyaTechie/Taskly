@@ -12,26 +12,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
-        {/* Logo */}
-        <div className=" items-center justify-center space-x-2 flex-row space-y-2">
-          <span className="flex items-center justify-center">
-            <Image
-              height={100}
-              width={100}
-              src="/logo1.png"
-              alt="logo1"
-              className="h-7 w-11 "
-            ></Image>
-          </span>
-          <Image
-            height={100}
-            width={100}
-            src="/logo2.png"
-            alt="Logo"
-            className="h-3"
-          />
-        </div>
-
+  
         {/* Search Bar (hidden on small screens) */}
         <div className="hidden md:flex flex-1 mx-6 relative">
           {/* Input Field */}

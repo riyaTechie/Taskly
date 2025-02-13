@@ -9,12 +9,6 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
         {/* Logo Section */}
         <div className="flex justify-center md:justify-start col-span-1">
-          <div>
-            <span className='flex items-center justify-center'>
-                <Image height={100} width={100} src="/logo1.png" alt="logo1" className='h-11 w-16 '></Image>
-            </span>
-            <Image height={100} width={100} src="/logo2.png" alt="Logo" className="h-5 w-40" />
-          </div>
         </div>
 
         {/* Links Section */}
