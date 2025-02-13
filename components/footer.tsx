@@ -1,7 +1,7 @@
 import React from "react";
 // import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Instagram, Twitter, Linkedin } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (

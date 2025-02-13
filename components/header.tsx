@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { Lightbulb, Heart, ShoppingCart, Menu, X, Search, ChevronDown } from "lucide-react";
 
 const Header: React.FC = () => {
